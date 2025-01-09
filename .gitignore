@@ -1,0 +1,15 @@
+# dependencies
+/node_modules/
+
+# build output
+/build/
+
+# system files
+.DS_Store
+
+# environment files
+.env
+
+# Optional: if you're using npm
+package-lock.json
+

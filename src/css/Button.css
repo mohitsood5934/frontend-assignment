@@ -1,0 +1,14 @@
+button {
+    padding: .325rem 1.188rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background: #0076d7;
+    color: #fff;
+    font-weight: 600;
+}
+
+button:disabled {
+    background-color: #717171;
+}

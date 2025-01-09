@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    border: 1px solid gray;
+    height: 100vh;
+    background-color: rgb(15, 18, 20);
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Small devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+    }
+}

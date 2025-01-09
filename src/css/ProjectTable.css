@@ -1,0 +1,27 @@
+.project-table {
+    max-width: 100%;
+    min-height: 200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+caption {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.project-table th,
+.project-table td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+}
+
+.project-table tr {
+    letter-spacing: 0.1rem;
+}
+
+.pagination .pagination__text{
+    margin: 0 0.3rem 0 0.3rem;
+    font-weight: 500;
+}
